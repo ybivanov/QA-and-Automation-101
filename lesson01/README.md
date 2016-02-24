@@ -1,4 +1,4 @@
-# Week 1 - QA fundamentals
+# Lesson 1 - QA fundamentals
 
 ## Definition of testing, QA and QE
 
