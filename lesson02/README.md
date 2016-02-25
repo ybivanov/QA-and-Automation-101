@@ -133,12 +133,17 @@ next exercise.
 * Work alone.
 * Fork this repo under your username in GitHub
 * Select one of the following bugs (or another at your will):
-** http://atodorov.org/blog/2015/12/17/facebook-is-bugging-me/
-** http://atodorov.org/blog/2015/01/09/pedometer-bug-in-samsung-gear-fit-smartwatch/
-** http://atodorov.org/blog/2015/01/07/2-barcode-related-bugs-in-myfitnesspal/
-** http://atodorov.org/blog/2015/01/05/endless-loop-bug-candy-crush-saga-level-80/
+ * http://atodorov.org/images/facebook_android_icon_small.png
+ * http://atodorov.org/images/barcode/fail.jpg
+ * https://www.youtube.com/watch?v=haBepFwyaxY
+ * https://www.youtube.com/watch?v=EzSMc0NcmWE
+ * Nokia 700 shows wrong caller ID
+
+* Instructor will briefly explain what the bugs are if you
+have troubles spotting them
+
 * Create a GitHub issue inside your repository and describe the bug
-you have selected.
+you have selected. Describe the bug as best as you can.
 * NOTE: Add URL link to the chosen problem in your bug report! (for reference purposes)
 
 
