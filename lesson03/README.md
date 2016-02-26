@@ -253,3 +253,9 @@ and cases to accommodate the request.
 * For reference purposes (and personal archive) you can try the
 Print Plan button and extract the test plan and test cases information
 as HTML/plain text.
+
+
+### Homework
+
+Prepare user accounts for Lesson 4. We will be testing and reporting bugs
+in the wild.
