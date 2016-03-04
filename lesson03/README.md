@@ -248,6 +248,10 @@ Use the reports to collect the required information.
 ask you to make a change in the software. Clone existing test plans
 and cases to accommodate the request.
 
+* Compare the use of TCMS against using a Wiki:
+https://fedoraproject.org/wiki/QA/TestPlans/Networking
+
+
 ### Homework
 
 * For reference purposes (and personal archive) you can try the
