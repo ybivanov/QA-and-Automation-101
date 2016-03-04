@@ -95,6 +95,4 @@ automated Selenium tests for http://addons.mozilla.org.
 
 ### Lesson 10 - How to find 1000 bugs in 30 minutes
 
-* Find at least 100 bugs in Fedora 24
-
-
+* Introduction to mass scale exploratory testing
