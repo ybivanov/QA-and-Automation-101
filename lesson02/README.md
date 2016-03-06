@@ -1,4 +1,4 @@
-# Lesson 2 - Software Development Lifecycle
+# Software Development Lifecycle
 
 There are many different SDLC models. Testing is not isolated activity, it is
 part of SDLC. In different environments and SDLC models testing is carried out
@@ -21,7 +21,7 @@ Answer the following questions:
 * Where does testing fit in ?
 * What are the problems wrt testing in waterfall model ?
 
-Instructor will summarize the above questions.
+Instructor will summarize the answers to the above questions.
 
 
 ### Exercise: (30 minutes)
@@ -55,21 +55,21 @@ Answer the following questions:
 * What are the differences between Agile and Waterfall models
 wrt testing and QA ?
 
-Instructor will summarize the above questions.
+Instructor will summarize the answers to the above questions.
 
-Homework: For more detailed information read:
-https://en.wikipedia.org/wiki/Kanban_%28development%29
-https://en.wikipedia.org/wiki/Scrum_%28software_development%29
+For more detailed information read:
+* https://en.wikipedia.org/wiki/Kanban_%28development%29
+* https://en.wikipedia.org/wiki/Scrum_%28software_development%29
 
 
 ### Exercise: (30 minutes)
 
 * Work in groups of 5 people. 1 person per role
-** customer
-** requirements analyst
-** designer
-** developer
-** tester
+ * customer
+ * requirements analyst
+ * designer
+ * developer
+ * tester
 
 * Each group is a cross-functional team
 * Each group is responsible to build the application alone
@@ -86,16 +86,16 @@ them
 
 ## QA's involvement in both
 
-One size doesn't fit all.
+*"One size doesn't fit all!"
 
 Homework - further reading:
-http://qatestlab.com/knowledge-center/QA-Testing-Materials/waterfall-process/
-http://www.blackpepper.co.uk/agile-vs-waterfall-development-quality-assurance/
-http://www.websoftwareqa.com/2010/08/how-is-qa-different-for-waterfall-agile-and-xp/
-http://www.wseas.us/e-library/transactions/computers/2008/31-097.pdf
+* http://qatestlab.com/knowledge-center/QA-Testing-Materials/waterfall-process/
+* http://www.blackpepper.co.uk/agile-vs-waterfall-development-quality-assurance/
+* http://www.websoftwareqa.com/2010/08/how-is-qa-different-for-waterfall-agile-and-xp/
+* http://www.wseas.us/e-library/transactions/computers/2008/31-097.pdf
 
 
-# Lesson 2 - Bug tracking
+# Bug tracking
 
 ## Generic definition
 
@@ -120,8 +120,8 @@ https://en.wikipedia.org/wiki/Bug_tracking_system
 ### Exercise: (20 minutes)
 
 * Work in pairs
-* Answer the following question:
-** What information does a bug report need to include ?
+* Answer the question
+* What information does a bug report need to include ?
 
 
 Share your answers with the class. We will discuss the answers after the
@@ -167,10 +167,10 @@ Share the good and bad sides of the bug report with the class.
 ### Exercise: (10 minutes)
 
 * Read the following articles:
-https://github.com/blog/2111-issue-and-pull-request-templates
-https://help.github.com/articles/helping-people-contribute-to-your-project/
+ * https://github.com/blog/2111-issue-and-pull-request-templates
+ * https://help.github.com/articles/helping-people-contribute-to-your-project/
 
-* Create an ISSUE_TEMPLATE.md inside your GitHub repository,
+* Create an `ISSUE_TEMPLATE.md` inside your GitHub repository,
 containing placeholders for important bug information
 * Add the Steps to reproduce or How to test sections to your template
 * Verify that the template works
@@ -188,7 +188,7 @@ Ask instructor for help if necessary.
 * Make notes of the URL and what information is present (good)
 or missing (bad) in the bug report!
 * Answer the question:
-** How good is the proposed ISSUE_TEMPLATE ?
+* How good is the proposed `ISSUE_TEMPLATE.md` ?
 
 Ask instructor for help if necessary.
 
@@ -198,12 +198,9 @@ Share your findings with the class.
 
 ### Homework:
 
-Contribute an ISSUE_TEMPLATE.md to an open source project on GitHub.
+Contribute an `ISSUE_TEMPLATE.md` to an open source project on GitHub.
 Select one which you like or are familiar with (if possible).
 Make a note of the URL of your pull request (for future reference).
 
 You need to be at least somewhat familiar with the project so I'm
 not going to propose projects to work on.
-
-
-

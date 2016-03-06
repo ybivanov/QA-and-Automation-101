@@ -1,4 +1,4 @@
-# Lesson 1 - QA fundamentals
+# QA fundamentals
 
 ## Definition of testing, QA and QE
 

@@ -1,4 +1,4 @@
-# Lesson 3 - Test Case Management
+# Test Case Management
 
 This lesson will start with brief theory of test management presented by the
 instructor. The goal is to get slightly familiar with the terms used.
@@ -18,8 +18,8 @@ organize them in test plans and monitor execution progress and defects found.
 There are many TCMS systems available. Each one is different from the rest.
 
 For more information see:
-https://en.wikipedia.org/wiki/Test_management
-https://en.wikipedia.org/wiki/Test_management_tools
+* https://en.wikipedia.org/wiki/Test_management
+* https://en.wikipedia.org/wiki/Test_management_tools
 
 ## Generic definitions
 
@@ -36,6 +36,7 @@ considered sufficiently scrutinized to be released. Test cases are often
 referred to as test scripts, particularly when written - when they are usually
 collected into test suites.
 
+For more information read
 https://en.wikipedia.org/wiki/Test_case
 
 
@@ -50,6 +51,7 @@ https://www.openshift.com/app/account/new
 * Explain how exactly will you test the following test case.
 NOTE: Write down step-by-step is the best thing to do.
 
+```
 CASE 01 - Create account with bad password
 ------------------------------------------
 
@@ -65,18 +67,9 @@ Actions:
 Expected results:
 
 1. The form returns an error about bad password.
+```
 
-
-
-
-How did you test:
-
-...
-
-
-
-
-
+* How did you test ?
 
 * Answer the questions
  * what browser did you use
@@ -84,13 +77,10 @@ How did you test:
  * what type of bad password did you use
  * what was the exact error message on the form
 
-
-
-
 * Explain how exactly will you test the following test case.
 NOTE: Write down step-by-step is the best thing to do.
 
-
+```
 CASE 02 - Create account with short password
 ---------------------------------------------
 
@@ -110,16 +100,10 @@ Expected results:
 
 1. The form returns an error message.
 Password needs to be at lest 6 characters long!
+```
 
 
-
-How did you test
-
-...
-
-
-
-
+* How did you test
 
 * Answer the questions
  * what browser did you use
@@ -127,15 +111,10 @@ How did you test
  * what type of bad password did you use
  * what was the exact error message on the form
 
-
 * Answer the questions
  * find the differences between the two test cases
  * which test case is better and why
  * what are the attributes of a well defined test case
-
-
-
-
 
 
 
