@@ -1,19 +1,23 @@
-# Lesson 6 - Writing JUnit tests for Apache Commons
+# Writing JUnit tests for Apache Commons
 
 Apache Commons is a collection of reusable Java components which are heavily
-used in most other Java projects. The list of components to test is at:
+used in most Java projects. The list of components to test is at:
 http://commons.apache.org/components.html
 
 * The commons have a GitHub mirror at https://github.com/apache/commons-XXXX/
 * All the projects use the Maven build system
 * To build and test a project run the command
 
+```
     mvn test jacoco:report
+```
 
 * Coverage report is available in `./target/site/jacoco/index.html`
 * To execute a single test (for example file MyTest.java) use the command
 
+```
     mvn -Dtest=MyTest test
+```
 
 * Suitable components for beginners are:
  * commons-codec

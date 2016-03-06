@@ -1,4 +1,4 @@
-# Lesson 9 - Introduction to performance testing
+# Introduction to performance testing
 
 Performance testing is a testing practice performed to determine how a system
 performs in terms of responsiveness and stability under a particular workload.

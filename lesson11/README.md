@@ -13,7 +13,7 @@ massive scale.
 * Read the following list of articles and bug reports and discuss them
 * Instructor will also explain them to the class if unclear
 
-RHBZ #350481 - private bug, details follow:
+#### RHBZ #350481 - private bug, details follow:
 
     rpm doesn't perform a conflict check for /usr/share/doc.
     
@@ -45,40 +45,44 @@ Incorrect fix for the above bug resulted in the following bugs:
 
 Solution, ignore conflicts under `/usr/share/doc`.
 
+#### Empty or missing -debuginfo packages (30 bugs)
 
-Empty or missing -debuginfo packages (30 bugs). Search for -debuginfo at:
-http://red.ht/1QSLiC3
+Search for -debuginfo at http://red.ht/1QSLiC3
 
-Errors when installing packages with --excludedocs (100 bugs). Search for
-`--excludedocs` at above link.
+#### Errors when installing packages with --excludedocs (100 bugs)
 
+Search for `--excludedocs` at http://red.ht/1QSLiC3
 
-File conflicts between multilib -devel packages. 25 bugs and potentially 50000
-conflicting files:
+#### File conflicts between multilib -devel packages
+
+25 bugs and potentially 50000 conflicting files, see
 https://bugzilla.redhat.com/show_bug.cgi?id=644778
 
 
+#### rpmlint errors and warnings (15 bugs)
 
-rpmlint errors and warnings (search for "rpmlint errors" above) - 15 bugs
+Search for "rpmlint errors" at http://red.ht/1QSLiC3
 
 
-Installing packages with --instLangs leaves empty directories under
-`/usr/share/locale` which are owned by the filesystem RPM. In case of building
+#### Installing packages with --instLangs leaves empty directories under
+`/usr/share/locale`
+
+These are owned by the `filesystem` RPM. In case of building
 Docker images these directories are useless. This may affect every single RPM
-which ships translation files (.spec changes).
-http://atodorov.org/blog/2015/10/28/building-docker-images-with-anaconda/
+which ships translation files (.spec changes), depending on chosen fix. See
+* http://atodorov.org/blog/2015/10/28/building-docker-images-with-anaconda/
 
+#### Missing or non executed tests (2000 packages)
 
-Missing or non executed tests (2000 packages):
 http://atodorov.org/blog/2014/02/28/action-improving-test-coverage-in-fedora/
 
+#### Possible checksec errors (4000+ offenses)
 
-Possible checksec errors (4000+ offenses):
 http://atodorov.org/blog/2015/09/16/4000-bugs-in-fedora-checksec-failures/
 
-Documentation proof-reading, spell check, URLs check - many bugs, mostly private.
-Also see
-*How we found a million style and grammar errors in the English Wikipedia*
+#### Documentation proof-reading, spell check, URLs check
+
+See *How we found a million style and grammar errors in the English Wikipedia*
 https://archive.fosdem.org/2014/schedule/event/how_we_found_600000_grammar_errors/
 
 ### Exercise: (180 minutes)
@@ -99,8 +103,3 @@ hate that and many of the perceived bugs will be false negatives! Discuss your
 findings with the class instead. If the results seem to be legitimate bugs
 you can start by posting your concerns on fedora-devel and fedora-test mailing
 lists!
-
-
-
-
-

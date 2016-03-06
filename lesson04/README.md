@@ -1,4 +1,4 @@
-# Lesson 4 - Testing Fedora 24 Changes
+# Testing Fedora 24 Changes
 
 In this lesson we will be creating test plans and test cases for changes in the
 upcoming Fedora 24 release. You need to prepare necessary user accounts and your
@@ -24,7 +24,7 @@ https://webchat.freenode.net/.
 
 
 * Prepare a Fedora 23 system which can be upgraded to the development Rawhide
-version or better install One of the Rawhide snapshots in a VM.
+version or better install one of the Rawhide snapshots in a VM.
  * Search for an installable daily snapshot under
     http://koji.fedoraproject.org/mash/
  * For example (look for a boot.iso):
@@ -68,3 +68,6 @@ on your systems
 * Report test results in the wiki page
 * Report any bugs in Bugzilla and link them in the wiki
 
+### Homework
+
+Complete your test plans/test cases and any file bugs you have found!

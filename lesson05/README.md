@@ -1,4 +1,4 @@
-# Lesson 5 - Unit Testing and Continuous Integration
+# Unit Testing and Continuous Integration
 
 ## What is unit testing
 
@@ -25,6 +25,7 @@ to remember is: always fake code which is outside your test case
 
 For example, given the code below:
 
+```
 def hello(name):
     if time.clock.hour < 12:
         print "Good morning", name
@@ -32,9 +33,10 @@ def hello(name):
         print "Good afternoon", name
     else:
         print "Good evening", name
+```
 
 The above pseudo-code is dependent on the current time of the day. If you want
-to test it you need to control the time module:
+to test it you need to control the time module. Either:
 
 1. Modify the system clock of the system executing the test
 2. Supply a fake time module which we can control
@@ -55,7 +57,7 @@ http://atodorov.org/blog/2015/11/23/bad-stub-design-in-dnf/
 ## Using and abusing unit tests
 
 Whenever unit tests cross the class boundaries of the unit under test
-or cross process/network boundaries and unitilize external dependencies like
+or cross process/network boundaries and utilize external dependencies like
 database, network server, etc. they become integration tests.
 
 **Unit test frameworks can and often are used for integration type tests!
@@ -83,18 +85,18 @@ Otherwise download the jar file from junit.org!
 * Follow the JUnit Getting started guide:
 https://github.com/junit-team/junit/wiki/Getting-started
 
-NOTE: replace the junit-4.XX.jar in examples with
-/usr/share/java/junit4.jar (full path to jar file). hamcrest-core-1.3.jar is
-not needed!
+NOTE: On Fedora replace the `junit-4.XX.jar` in examples with
+`/usr/share/java/junit4.jar` (full path to jar file). `hamcrest-core-1.3.jar` is
+not needed! Otherwise you can use the jar files from a local directory!
 
 ### Exercise: (20 minutes)
 
 * Write a new test for your Calculator class from the previous exercise
- * for example for a new add(a+b) method
+ * for example for a new `add(a+b)` method
 * Run the tests - they should fail
 * Implement the missing functionality and re-run the tests until they PASS
 * Answer the question:
- * what is this method of development called
+* what is this method of development called
 
 
 ## Continuous Integration
@@ -110,7 +112,7 @@ https://en.wikipedia.org/wiki/Continuous_integration
 Remember:
 * CI is a shared effort between developers and QA
 * In Agile environment it can be cheaper to revert instead of exhaustive testing
-* DevOps relias heavily on CI and automated testing
+* DevOps relies heavily on CI and automated testing
 
 ## Introduction to Travis-CI
 
@@ -131,7 +133,7 @@ https://travis-ci.org/atodorov/JavaCalc
 
 * Publish your Calculator example on GitHub
 * Enable the repository inside Travis-CI
-* Create a .travis.yml file which tells Travis-CI how to build and test
+* Create a `.travis.yml` file which tells Travis-CI how to build and test
 your project
 * Push the changes to GitHub
 * Investigate the failures
@@ -157,3 +159,9 @@ REMEMBER:
  * https://commons.apache.org/proper/commons-math/jacoco/index.html
  * https://coveralls.io/github/apache/commons-math?branch=master
 * Discuss with your peers and instructor your findings
+
+
+### Homework
+
+Prepare yourself for Lesson06 by familiarizing as best as possible with
+one of the Apache Commons components!

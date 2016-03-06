@@ -167,8 +167,8 @@ this will be used in the next exercise. Ask questions when unclear.
 
 
 For more information read:
-http://www.coleyconsulting.co.uk/testplan.htm
-http://www.coleyconsulting.co.uk/IEEE829.htm
+* http://www.coleyconsulting.co.uk/testplan.htm
+* http://www.coleyconsulting.co.uk/IEEE829.htm
 
 
 ## Positive and negative tests

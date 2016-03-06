@@ -1,4 +1,4 @@
-# Lesson 8 - Writing Selenium tests for Mozilla Add-ons website
+# Writing Selenium tests for Mozilla Add-ons website
 
 Mozilla Add-ons is a collection of Firefox add-ons. The URL to be tested is:
 https://addons.mozilla.org/
@@ -14,7 +14,7 @@ For source of inspiration you can use:
 ### Exercise: (30 minutes)
 
 * Fork & clone the Addon-Tests repository
-* Read README
+* Read README (note the different Mozilla environments used for testing)
 * Create a Python virtualenv and install all requirements
 * Make sure everything works by trying to execute the test suite
 

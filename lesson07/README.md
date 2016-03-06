@@ -1,4 +1,4 @@
-# Lesson 7 - Integration Testing with Selenium
+# Integration Testing with Selenium
 
 ## Theory of test automation
 
@@ -44,8 +44,8 @@ have this ability.
 
 
 For further reading please see:
-http://googletesting.blogspot.bg/2008/04/tott-avoiding-flakey-tests.html
-https://semaphoreci.com/community/tutorials/how-to-deal-with-and-eliminate-flaky-tests
+* http://googletesting.blogspot.bg/2008/04/tott-avoiding-flakey-tests.html
+* https://semaphoreci.com/community/tutorials/how-to-deal-with-and-eliminate-flaky-tests
 
 
 
@@ -68,7 +68,7 @@ framework integrates with the tools inside in order to control and execute
 the automated tests and report the results. In many companies a CI server
 (usually Jenkins) is the central hub of the test automation infrastructure.
 
-Lots of the talks at Google Testing and Automation Conference 2015 described
+Lots of the talks at *Google Testing and Automation Conference 2015* described
 various test automation solutions developed by different companies to suit their
 needs. Recorded video can be found at:
 https://www.youtube.com/watch?list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&v=Uszbcu3HqBQ
@@ -101,3 +101,9 @@ peers what the IDE does.
 
 
 Ask instructor for help.
+
+
+### Homework
+
+Prepare for Lessons 8 and 9 by familiarizing yourself with the Python
+module for Selenium and the application under test.
