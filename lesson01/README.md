@@ -48,8 +48,8 @@ Answer the following questions (10 minutes):
 * Select a topic (e.g. mobile, automotive, server, banking software, etc)
 * Describe examples of bugs you have experienced or have read/heard about
 * Why are these bugs bad ?
-** How did they hurt the user ?
-** How did they hurt the software vendor ?
+ * How did they hurt the user ?
+ * How did they hurt the software vendor ?
 
 Summary: we need testing because everything in today's world is programmable
 and/or controlled by software. Depending on the environment and the types of
@@ -67,31 +67,30 @@ on the goals the software is meant to achieve.
 
 * You have the following pseudo code:
 
+```
 function Sudoku(input: Array[2]) {
     .....
     return Array[2]
 }
+```
 
 Input is 2 dimensional array, representing known fields in a Sudoku matrix.
 Output is the entire Sudoku matrix.
 
 * You are given the following environments (pick one):
-** all environments accept user input (the known numbers in Sudoku)
-** code is JavaScript, runs in the browser
-** code is JavaScript, runs on the server
-** code is native, runs on mobile device
-** code runs on web server, reads Sudoku variants from DB
+ * all environments accept user input (the known numbers in Sudoku)
+ * code is JavaScript, runs in the browser
+ * code is JavaScript, runs on the server
+ * code is native, runs on mobile device
+ * code runs on web server, reads Sudoku variants from DB
 
 * Work in groups of 4-5 people, organized by environment
-
 * Half will analyze and test the code above, the other half will
-analyze their peers test cases.
-
+analyze their peers test cases
 * You have 5 minutes to create test cases to prove that the software works
-  correctly.
+  correctly
 * Reviewers (5 minutes): Analyze and tell us if the presented solution is enough,
 if it is missing something (what) or if it has incorporated unnecessary tests (why)
-
 * Discuss with the class your solution - 20 minutes
 
 
@@ -105,7 +104,7 @@ http://www.istqb.org/downloads/send/2-foundation-level-documents/3-foundation-le
 Answer the questions:
 
 * What personal qualities make a good tester ?
-* How is testers differ from developers ?
+* How testers differ from developers ?
 
 Instructor will quickly discuss with the class the key findings.
 
@@ -117,26 +116,26 @@ Read the principles below. The instructor will explain what they
 mean. Volunteer to stand-up and answer the minor questions below.
 
 1. Testing shows presence of defects
-- what does it not show ?
+ - what does it not show ?
 
 2. Exhaustive testing is impossible
-- why ?
-- how to deal with this then ?
+ - why ?
+ - how to deal with this then ?
 
 3. Early testing
 
 4. Defect clustering
-- 80/20 rule (of sorts)
+ - 80/20 rule (of sorts)
 
 5. Pesticide paradox
-- no more bugs found in the same place
-- and what to do about it
+ - no more bugs found in the same place
+ - and what to do about it
 
 6. Testing is context dependent
-- one size doesn't fit all
+ - one size doesn't fit all
 
 7. Absence of errors fallacy
-- the only software which doesn't have bugs is the one which is not used
+ - the only software which doesn't have bugs is the one which is not used
 
 
 
