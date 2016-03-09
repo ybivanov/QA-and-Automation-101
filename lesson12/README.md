@@ -85,12 +85,12 @@ http://atodorov.org/blog/2015/09/16/4000-bugs-in-fedora-checksec-failures/
 See *How we found a million style and grammar errors in the English Wikipedia*
 https://archive.fosdem.org/2014/schedule/event/how_we_found_600000_grammar_errors/
 
-#### Add repo URLs to package.json - 250+ issues
+#### Add repo URLs to package.json (250+ issues)
 
 See:
 https://github.com/pulls?page=1&q=is%3Apr+author%3AForbesLindesay+package.json&utf8=%E2%9C%93
 
-These are automatically found and even automatically fixed!
+These are automatically found and even automatically fixed (using the GitHub API)!
 
 
 ### Exercise: (150 minutes)
