@@ -1,109 +1,86 @@
-# Integration Testing with Selenium
+# Writing JUnit tests for Apache Commons
 
-## Theory of test automation
+Apache Commons is a collection of reusable Java components which are heavily
+used in most Java projects. The list of components to test is at:
+http://commons.apache.org/components.html
 
-### Exercise: (30 minutes)
+* The commons have a GitHub mirror at https://github.com/apache/commons-XXXX/
+* All the projects use the Maven build system
+* To build and test a project run the command
 
-Please read
-https://en.wikipedia.org/wiki/Test_automation
+```
+    mvn test jacoco:report
+```
 
-Answer the questions
-* Why we need to automate
-* What we have to automate
-* How test cases need to be written to be automatable
-(remember Lesson 3)
+* Coverage report is available in `./target/site/jacoco/index.html`
+* To execute a single test (for example file MyTest.java) use the command
 
+```
+    mvn -Dtest=MyTest test
+```
 
-### Exercise: (10 minutes)
-
-* Execute the example `flaky.py` test - it should pass
-* Execute the same test again - it should fail
-* Examine the test and answer the question - why did it fail
-
-Flaky tests are tests which fail from time to time depending on their
-order of execution or on external factors. This means that the test script
-is poorly written. Automated tests should be designed in such a way that they
-are independent of the order in which they are executed and of the
-environment. That's why it is important to start the tests in a clean
-environment.
-
-**NOTE:** sometimes starting in a non-clean environment, e.g. pre-existing
-database, is a good way to cause your automated tests to fail. This can be used
-as a method of finding flaky tests.
-
-**NOTE:** some test frameworks, like RSpec (for Ruby) have the ability to
-execute tests in random order and help identify flaky tests. Others may not
-have this ability.
-
-### Exercise: (10 minutes)
-
-* You are working in Agile environment
-* It is highly likely that there are flaky tests
-* What will happen if you enable --order random on the CI server
-* How will you deal with the problem
-
-
-For further reading please see:
-* http://googletesting.blogspot.bg/2008/04/tott-avoiding-flakey-tests.html
-* https://semaphoreci.com/community/tutorials/how-to-deal-with-and-eliminate-flaky-tests
-
-
-
-
-## What is automatable software
-
-Automatable software is one that makes it easier to write automated tests.
-Some important properties include
-* being able to build the software repeatably and consistently (make, maven, etc)
-* being able to easily install the software and required dependencies (e.g. rpm)
-* being able to easily configure the required settings, for example configuration
-stored in database, config files (various formats, text or binary), command line
-options, environment variables
-* being able to easily access individual components for testing (classes, widgets,
-etc)
-
-An automation framework or automation infrastructure or QA lab is an environment
-where different testing tools can perform their tasks easily. An automation
-framework integrates with the tools inside in order to control and execute
-the automated tests and report the results. In many companies a CI server
-(usually Jenkins) is the central hub of the test automation infrastructure.
-
-Lots of the talks at *Google Testing and Automation Conference 2015* described
-various test automation solutions developed by different companies to suit their
-needs. Recorded video can be found at:
-https://www.youtube.com/watch?list=PLSIUOFhnxEiCWGsN9t5A-XOhRbmz54IS1&v=Uszbcu3HqBQ
+* Suitable components for beginners are:
+ * commons-codec
+ * commons-collections
+ * commons-compress
+ * commons-configuration
+ * commons-csv
+ * commons-discovery
+ * commons-email
+ * commons-exec
+ * commons-imaging
+ * commons-lang
+ * commons-logging
+ * commons-math
+ * commons-net
 
 
 ### Exercise: (30 minutes)
 
-* Discuss all of the points above
-* Discuss with the class what we need to do if the software under test
-is not automatable ?
+* Work in teams of 4-5 people
+* Select a project to work on - 1 project per team!
+* Fork the project on GitHub
+* Create a local branch for your changes
+* Build it locally, execute the tests and generate coverage report with JaCoCo
+* Investigate the coverage report to see where the component is missing coverage
+* Determine what needs to be done in order to cover the missing lines.
+Don't write any code yet, just write down your results (e.g. I need method X to
+throw an exception and assert that this happened. For that I need input A and B).
+* Identify what you need to assert in your tests. Helpful documentation can be
+found at http://junit.org! (e.g. how to assert an exception was thrown).
+
+* Consult with instructor and your peers if the chosen test areas are
+appropriate
+
+### Exercise: (150 minutes)
+
+* After finding places which need coverage split in pairs
+* Each pair of students select 1 method/class which isn't covered
+
+* NOTE: copy the coverage results directory for backup (it will be used later)
+
+* Investigate what the method does and write a unit test for it
+* HELP: look for similar tests in the test suite, ask instructor for help
+
+* After the test finally passes compare the new coverage with the old one.
+How much did you improve ?
+
+* Reverse roles with your peer and write more unit tests. Coordinate with
+the rest of your team to avoid working on the same item.
+
+### Exercise: (60 minutes)
+
+* Prepare your tests for submitting a PR on GitHub
+ * Create a clean branch following master - 1 branch per change
+ * Cherry-pick individual commits
+ * Clean up comments, etc
+* Re-run the test suite to make sure it passes
+* Push the new branch to your GitHub repo
+* Open a PR with the upstream project
+* Ask instructor for help with the final wording if necessary
 
 
-## Introduction to Integration Testing with Selenium
+## Homework
 
-Instructor will explain what Selenium is and briefly explain how it works.
-
-### Exercise: (120 minutes)
-
-* Install Selenium IDE from http://docs.seleniumhq.org/
-* Become familiar with the basics of using Selenium. See:
- * http://docs.seleniumhq.org/docs/02_selenium_ide.jsp#commonly-used-selenium-commands
- * http://docs.seleniumhq.org/docs/02_selenium_ide.jsp#locating-elements
-* Explore the Selenium IDE user interface - work in pair and explain to your
-peers what the IDE does.
-* Open the provided example test and execute it in the Selenium IDE
-* Add modifications to the test
-* Add several new tests to your test suite
-
-* Save your existing test cases and commit them to GitHub
-
-
-Ask instructor for help.
-
-
-### Homework
-
-Prepare for Lessons 8 and 9 by familiarizing yourself with the Python
-module for Selenium and the application under test.
+Follow up on your pull requests and aim to have them accepted upstream!
+Ask instructor and your peers for help if necessary.

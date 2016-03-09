@@ -15,7 +15,7 @@ plans. These can be later shown to prospect employers.
 
 ## Course Program
 
-### Lessons -2, -1, 0 - Java 101 Refresh course
+### Lessons -1, 0 - Java 101 Refresh course
 
 Please see https://github.com/HackBulgaria/Programming101-Java
 
@@ -46,7 +46,7 @@ activities.
 * QA's involvement in both
 
 
-### Lesson 2 - [Bug Tracking](/lesson02/)
+### Lesson 3 - [Bug Tracking](/lesson02/)
 
 *"If it's not in Bugzilla it's not a bug!"*
 
@@ -56,7 +56,7 @@ activities.
 
 
 
-### Lesson 3 - [Test Case Management](/lesson03/)
+### Lesson 4 - [Test Case Management](/lesson03/)
 
 *“If it is not in the TCMS then we don't test it!”*
 
@@ -69,7 +69,7 @@ activities.
 * Positive and negative tests
 * Practice with Nitrate TCMS
 
-### Introduction to Linux
+### Practice - Introduction to Linux
 
 
 This is a practical refresher lesson for Linux. How to install it
@@ -78,13 +78,13 @@ https://github.com/fosscourse/wiki/wiki/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%
 
 
 
-### Lesson 4 - [Testing Fedora 24 Changes](/lesson04/)
+### Lesson 5 - [Testing Fedora 24 Changes](/lesson04/)
 
 This is a practice only lesson. Students will be testing
 new features proposed for the upcoming Fedora 24 release.
 
 
-### Lesson 5 - [Unit Testing and Continuous Integration](/lesson05/)
+### Lesson 6 - [Unit Testing and Continuous Integration](/lesson05/)
 
 Unit testing and CI are traditionally developer oriented activities
 but QA is increasingly starting to take part in both of them.
@@ -95,13 +95,13 @@ but QA is increasingly starting to take part in both of them.
 * Continuous Integration and code coverage
 
 
-### Lesson 6 - [Writing JUnit tests for Apache Commons](/lesson06/)
+### Lesson 7 - [Writing JUnit tests for Apache Commons](/lesson06/)
 
 This is a practive only lesson. Students will be writing
 JUnit tests for popular Apache Commons components and inspecting
 changes in code coverage.
 
-### Lesson 7 - [Integration Testing with Selenium](/lesson07/)
+### Lesson 8 - [Integration Testing with Selenium](/lesson07/)
 
 Selenium is a popular test automation framework for web based applications.
 In this lesson we learn about how test cases and software need to be written in
@@ -112,16 +112,16 @@ order to be automated and explore the Selenium IDE.
 * Introduction to Selenium
 
 
-### Lesson 8 - [Writing Selenium tests for Mozilla Add-ons website Pt.1](/lesson08/)
+### Lesson 9 - [Writing Selenium tests for Mozilla Add-ons website Pt.1](/lesson08/)
 
 This is a practice only lesson. Students will be writing
 automated Selenium tests for http://addons.mozilla.org.
 
-### Lesson 9 - [Writing Selenium tests for Mozilla Add-ons website Pt.2](/lesson08/)
+### Lesson 10 - [Writing Selenium tests for Mozilla Add-ons website Pt.2](/lesson08/)
 
 This is continuation of the previous practice only lesson.
 
-### Lesson 10 - [Introduction to performance testing](/lesson10/)
+### Lesson 11 - [Introduction to performance testing](/lesson10/)
 
 Introduction to performance testing targeted mostly towards discussions and understanding
 what performance testing is. The lesson explores several examples of basic performace
@@ -130,7 +130,7 @@ testing and includes a practical exercise.
 * Short theory with examples
 * Designing performance test strategy for GitHub
 
-### Lesson 11 - [How to find 1000 bugs in 30 minutes](/lesson11/)
+### Lesson 12 - [How to find 1000 bugs in 30 minutes](/lesson11/)
 
 In every suffiently large software system even the smallest change can affect multiple
 components and lead to a big number of bugs. The lesson explores several examples of
