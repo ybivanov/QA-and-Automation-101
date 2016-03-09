@@ -166,7 +166,9 @@ from previous exercise.
 Read Page 37-44 from
 http://www.istqb.org/downloads/send/2-foundation-level-documents/3-foundation-level-syllabus-2011.html4
 
-Ask the instructor to give examples and explain the described techniques.
+Ask the instructor to give examples for black-box, white-box and exploratory
+testing and explain them. Feel free to ask questions and participate in
+discussion.
 
 
 ## Homework:
