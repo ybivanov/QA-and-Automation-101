@@ -69,6 +69,14 @@ activities.
 * Positive and negative tests
 * Practice with Nitrate TCMS
 
+### Introduction to Linux
+
+
+This is a practical refresher lesson for Linux. How to install it
+and how to use it. More information can be found at:
+https://github.com/fosscourse/wiki/wiki/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE_%D0%B2%D1%8A%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_%D0%9B%D0%B8%D0%BD%D1%83%D0%BA%D1%81
+
+
 
 ### Lesson 4 - [Testing Fedora 24 Changes](/lesson04/)
 
@@ -130,3 +138,8 @@ such bugs and gives the students the background to start finding bugs by the hun
 
 * Introduction to mass scale exploratory testing
 * Let's find at least 100 bugs in Fedora 24
+
+### Summary - What I've learned in this course. What next ?
+
+Before the end of the last lesson we go back to reflect on what we've learned
+during this course and what to do next in order to boost our careers in QA.
