@@ -150,6 +150,11 @@ you have selected. Describe the bug as best as you can.
 Instructor will examine your bug reports and explain what information
 is vital and really important and what information not so much.
 
+For more information see
+* [Mozilla's Bug writing guidelines](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines)
+* [Mozilla's Bugzilla etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html)
+* [Bugzilla user guide](https://bugzilla.readthedocs.org/en/5.0/using/index.html)
+* [Bugzilla Tips blog](https://bugzillatips.wordpress.com/)
 
 ### Exercise: (20 minutes)
 
