@@ -101,3 +101,6 @@ Instructor will summarize all the answers from the class.
 * http://www.blackpepper.co.uk/agile-vs-waterfall-development-quality-assurance/
 * http://www.websoftwareqa.com/2010/08/how-is-qa-different-for-waterfall-agile-and-xp/
 * http://www.wseas.us/e-library/transactions/computers/2008/31-097.pdf
+
+### Homework - read "I Am A Bug" to prepare for next lesson
+* http://www.amibug.com/iamabug/p01.html
