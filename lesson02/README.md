@@ -10,7 +10,7 @@ https://en.wikipedia.org/wiki/Systems_development_life_cycle
 
 ## Waterfall model
 
-### Exercise: (15 minutes)
+### Exercise: (30 minutes)
 
 Read
 https://en.wikipedia.org/wiki/Waterfall_model
@@ -24,11 +24,15 @@ Answer the following questions:
 Instructor will summarize the answers to the above questions.
 
 
-### Exercise: (30 minutes)
+### Exercise: (60 minutes)
 
-* Work in groups of 5 people. We need 5 groups
+* Work in groups of 5 people. 1 person per role
+ * customer
+ * requirements analyst
+ * designer
+ * developer
+ * tester
 * Each group is responsible for one step in the waterfall model
-* Instructor is your Customer
 * We are building the best calculator application
 (it's up to you how to build and test it)
 
@@ -43,7 +47,7 @@ them
 
 ## Agile models
 
-### Exercise: (15 minutes)
+### Exercise: (30 minutes)
 
 Read:
 https://en.wikipedia.org/wiki/Agile_software_development
@@ -62,7 +66,7 @@ For more detailed information read:
 * https://en.wikipedia.org/wiki/Scrum_%28software_development%29
 
 
-### Exercise: (30 minutes)
+### Exercise: (60 minutes)
 
 * Work in groups of 5 people. 1 person per role
  * customer
@@ -86,12 +90,14 @@ them
 
 ## QA's involvement in both
 
-*"One size doesn't fit all!"
+"Test early, test often!"
 
-Homework - further reading:
+"One size doesn't fit all!"
+
+Instructor will summarize all the answers from the class.
+
+### Homework - further reading:
 * http://qatestlab.com/knowledge-center/QA-Testing-Materials/waterfall-process/
 * http://www.blackpepper.co.uk/agile-vs-waterfall-development-quality-assurance/
 * http://www.websoftwareqa.com/2010/08/how-is-qa-different-for-waterfall-agile-and-xp/
 * http://www.wseas.us/e-library/transactions/computers/2008/31-097.pdf
-
-
