@@ -7,7 +7,7 @@ and even 1000s of bugs when the change is not well designed or well executed.
 To find these bugs you need to look for patterns and apply your search on a
 massive scale.
 
-### Exercise: (45 minutes)
+### Exercise: (30 minutes)
 
 * Work in groups
 * Read the following list of articles and bug reports and discuss them
@@ -85,7 +85,15 @@ http://atodorov.org/blog/2015/09/16/4000-bugs-in-fedora-checksec-failures/
 See *How we found a million style and grammar errors in the English Wikipedia*
 https://archive.fosdem.org/2014/schedule/event/how_we_found_600000_grammar_errors/
 
-### Exercise: (180 minutes)
+#### Add repo URLs to package.json - 250+ issues
+
+See:
+https://github.com/pulls?page=1&q=is%3Apr+author%3AForbesLindesay+package.json&utf8=%E2%9C%93
+
+These are automatically found and even automatically fixed!
+
+
+### Exercise: (150 minutes)
 
 * Work in groups
 * Look at the Fedora 24 change set at
