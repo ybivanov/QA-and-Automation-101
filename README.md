@@ -15,7 +15,7 @@ plans. These can be later shown to prospect employers.
 
 ## Course Program
 
-### Lessons -1, 0 - Java 101 Refresh course
+### 3x - Java 101 Refresh course
 
 Please see https://github.com/HackBulgaria/Programming101-Java
 
@@ -69,7 +69,7 @@ activities.
 * Positive and negative tests
 * Practice with Nitrate TCMS
 
-### Practice - Introduction to Linux
+### 3x - Introduction to Linux
 
 
 This is a practical refresher lesson for Linux. How to install it
