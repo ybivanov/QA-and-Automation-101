@@ -20,7 +20,7 @@ https://en.wikipedia.org/wiki/Bug_tracking_system
 
 ## How to write a good bug report
 
-### Exercise: (20 minutes)
+### Exercise: (30 minutes)
 
 * Work in pairs
 * Answer the question
@@ -54,12 +54,12 @@ Instructor will examine your bug reports and explain what information
 is vital and really important and what information not so much.
 
 For more information see
-* [Mozilla's Bug writing guidelines](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines)
+
 * [Mozilla's Bugzilla etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html)
 * [Bugzilla user guide](https://bugzilla.readthedocs.org/en/5.0/using/index.html)
 * [Bugzilla Tips blog](https://bugzillatips.wordpress.com/)
 
-### Exercise: (20 minutes)
+### Exercise: (30 minutes)
 
 * Work in pairs
 * Exchange URLs of your initial bug reports
@@ -72,9 +72,10 @@ Ask instructor for help if necessary.
 Share the good and bad sides of the bug report with the class.
 
 
-### Exercise: (10 minutes)
+### Exercise: (30 minutes)
 
 * Read the following articles:
+ * [Mozilla's Bug writing guidelines](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines)
  * https://github.com/blog/2111-issue-and-pull-request-templates
  * https://help.github.com/articles/helping-people-contribute-to-your-project/
 
@@ -88,7 +89,7 @@ reported previously
 Ask instructor for help if necessary.
 
 
-### Exercise: (20 minutes)
+### Exercise: (30 minutes)
 
 * Work in pairs
 * Exchange URLs of bug reports from previous exercise
@@ -102,7 +103,19 @@ Ask instructor for help if necessary.
 
 Share your findings with the class.
 
+### Exercise: (60 minutes)
 
+You have to read lots of bug reports to learn how to write a good one.
+Here are some examples to get you started:
+
+* [Cat sitting on keyboard crashes lightdm ](https://bugs.launchpad.net/unity/+bug/1463112)
+* [atodorov'v public bug list](http://red.ht/1QSLiC3) - earlier bugs are likely badly written
+
+TODO: more to be added
+
+* Read through the above bugs
+* Discuss in pairs why you think they are baddly written
+* Discuss with the class your findings
 
 ### Homework:
 
