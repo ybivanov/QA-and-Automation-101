@@ -119,6 +119,11 @@ Remember:
 Travis-CI is a CI software and a hosted service popular with open source
 projects. The service is free for public repositories on GitHub.
 
+Travis-CI has an API and combined with GitHub this is very powerful.
+You can automate quite a few things in terms of testing. For more info
+please read:
+http://atodorov.org/blog/2015/12/02/automatic-upstream-dependency-testing/
+
 ### Exercise: (10 minutes)
 
 * Login (using GitHub) to http://travis-ci.org
@@ -127,7 +132,6 @@ https://travis-ci.org/atodorov/JavaCalc
 * Answer the questions
  * why build #1 failed
  * how many environments are there in the test matrix
-
 
 ### Exercise: (30 minutes)
 
