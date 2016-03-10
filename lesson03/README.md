@@ -109,6 +109,7 @@ You have to read lots of bug reports to learn how to write a good one.
 Here are some examples to get you started:
 
 * [Cat sitting on keyboard crashes lightdm ](https://bugs.launchpad.net/unity/+bug/1463112)
+* [RHBZ 849090 - f18 tc3 is not stable](https://bugzilla.redhat.com/show_bug.cgi?id=849090)
 * [atodorov'v public bug list](http://red.ht/1QSLiC3) - earlier bugs are likely badly written
 
 TODO: more to be added
