@@ -10,4 +10,4 @@ func Sudoku(Array[2]) {
 - Input parameter is a two-dimensional array with the known numbers (from 1 to 9) in the Sudoku grid.
 - The output is a two-dimensional array with the numbers from the solved puzzle.
 
-You have 10 minutes to write down a list of all sudoku function test cases you can think of.
+## Write down a list of all sudoku function test cases you can think of.

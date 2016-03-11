@@ -12,6 +12,6 @@ You have the following login form:
 `Helo and welcome to Hack Bulgaria! Click _here_ to confirm your emeil address.`
 - Log in is possible with username and password or through the social networks.
 
-You have 10 minutes to write down a list of all login form test cases you can think of.
+## Write down a list of all login form test cases you can think of.
 
-Hint - think about all form components and how could they be tested.
+**Hint - think about all form components and how could they be tested.**
