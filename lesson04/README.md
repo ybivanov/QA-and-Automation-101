@@ -237,8 +237,24 @@ https://fedoraproject.org/wiki/QA/TestPlans/Networking
 Print Plan button and extract the test plan and test cases information
 as HTML/plain text.
 
+### Homework
+
+Go back to the course application form and retrieve your initial answers to
+the Login-Form and Sudoku-Solver problems. Copy them verbatim!
+
+Then, using what you have learned in the last few lessons write down your
+answers again!
+
+Compare the difference to see how actual test case scenarios should be
+written. Which ones bring useful data to the overall test plan and which
+ones do not ? Which are clearly defined and which are not, etc?
+
+Commit your test scenarios on GitHub and ask other students and instructor
+for peer review. Practice until you are happy with the result.
+
+**IMPORTANT:** Keep this for future reference with prospective employers!
 
 ### Homework
 
-Prepare user accounts for Lesson 4. We will be testing and reporting bugs
+Prepare user accounts for Lesson 5. We will be testing and reporting bugs
 in the wild.
