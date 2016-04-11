@@ -13,7 +13,7 @@ You need to have:
 
 The slides can be found here:
 
-* [Intro to Java - Types, Data Structurs & Basic Object Model]()
+* [Intro to Java - Types, Data Structurs & Basic Object Model](http://slides.com/hackbulgaria/qa-and-automation-intro-to-java/fullscreen)
 * [Intro to Java - Polymorphism - Interfaces & Abstrat Classes]()
 * [Intro to Java - Exceptions & JUnit]()
 
@@ -23,11 +23,11 @@ In a `com.hackbulgaria.qa.week1` package, create a class called `ZeroInsertionIm
 
 ```java
 public interface ZeroInsertion {
-  public int zeroInsertion(int n);
+  public String zeroInsertion(int n);
 }
 ```
 
-The method should return a new integer, based on the following rules:
+The method should return a new String, that is constructed following that rules:
 
 * If two neighboring digits are the same (like `55`), insert a 0 between them (`505`)
 * Also, if we add two neighboring digits and take their module by 10 (`% 10`) and the result is 0 - add 0 between them.
@@ -41,10 +41,10 @@ For example, if we have the number `116457`, result will be: `10160457`:
 ### Examples
 
 ```java
-zeroInsertion(116457) == 10160457
-zeroInsertion(55555555) == 505050505050505
-zeroInsertion(1) == 1
-zeroInsertion(6446) == 6040406
+zeroInsertion(116457) == "10160457"
+zeroInsertion(55555555) == "505050505050505"
+zeroInsertion(1) == "1"
+zeroInsertion(6446) == "6040406"
 ```
 
 ## Problem 2 - Hack Numbers
@@ -126,7 +126,7 @@ Few examples:
 * numbersToMessage([2, 2, 2, 2]) == "a"
 * numbersToMessage([1, 4, 4, 4, 8, 8, 8, 6, 6, 6, 0, 3, 3, 0, 1, 7, 7, 7, 7, 7, 2, 6, 6, 3, 2])
 ==
-"Ivo e panda"
+"Ivo e Panda"
 ```
 
 ### `int[] messageToNumbers(String message)`
