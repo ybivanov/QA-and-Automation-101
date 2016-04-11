@@ -144,3 +144,5 @@ messageToNumbers("Ivo e panda")
 messageToNumbers("aabbcc") == [2, -1, 2, -1, 2, 2, -1, 2, 2, -1, 2, 2, 2, -1, 2, 2, 2]
 ```
 
+For more information about Java, see:
+https://github.com/HackBulgaria/Programming101-Java
