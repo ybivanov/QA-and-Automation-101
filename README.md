@@ -16,9 +16,9 @@ plans. These can be later shown to prospect employers.
 
 ## Course Program
 
-### 3x - Java 101 Refresh course
+### 3x - [Java 101 Refresh course](/lesson00/)
 
-Please see https://github.com/HackBulgaria/Programming101-Java
+Please see Lesson 00.
 
 ### Lesson 1 - [QA Fundamentals](/lesson01/)
 
