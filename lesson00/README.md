@@ -17,6 +17,26 @@ The slides can be found here:
 * [Intro to Java - Polymorphism - Interfaces & Abstrat Classes]()
 * [Intro to Java - Exceptions & JUnit]()
 
+## How To Export Jar
+
+You can follow the steps [from here](http://help.eclipse.org/mars/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftasks-33.htm) for export yourself a `.jar`.
+
+There's no need to set advanced options & manifest file.
+
+## Problem 0 - A + B
+
+This one is for you to test the grader.
+
+In a `com.hackbulgaria.qa.week1` package, create a class called `ABSumImpl`, that implements the following interface, called `ABSum`:
+
+```java
+public interface ABSum {
+  public int sum(int a, int b);
+}
+```
+
+`sum` should return `a + b`
+
 ## Problem 1 - Zero Insertion
 
 In a `com.hackbulgaria.qa.week1` package, create a class called `ZeroInsertionImpl` which implements the following interface:
