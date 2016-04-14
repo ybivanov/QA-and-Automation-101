@@ -158,7 +158,7 @@ Few examples:
 ```
 messageToNumbers("abc") == [2, -1, 2, 2, -1, 2, 2, 2]
 messageToNumbers("a") == [2]
-messageToNumbers("Ivo e panda")
+messageToNumbers("Ivo e Panda")
 ==
 [1, 4, 4, 4, 8, 8, 6, 6, 0, 3, 3, 0, 1, 7, 2, 6, 6, 3, 2]
 messageToNumbers("aabbcc") == [2, -1, 2, -1, 2, 2, -1, 2, 2, -1, 2, 2, 2, -1, 2, 2, 2]
