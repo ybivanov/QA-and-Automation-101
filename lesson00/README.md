@@ -166,3 +166,20 @@ messageToNumbers("aabbcc") == [2, -1, 2, -1, 2, 2, -1, 2, 2, -1, 2, 2, 2, -1, 2,
 
 For more information about Java, see:
 https://github.com/HackBulgaria/Programming101-Java
+
+## Problem 4 - Cache
+
+You have the following interface:
+
+```java
+public interface Cache {
+    public void add(String key, Object value);
+    public Object get(String key);
+    public boolean hasValue(String key);
+}
+```
+
+Make two implementations:
+
+* `MemoryCache` - store the cache in variables (in-memory)
+* `FileCache` - store the cache in a file on the file-system. The format of the file is up to you (but you can make it JSON)
