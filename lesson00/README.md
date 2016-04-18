@@ -183,3 +183,14 @@ Make two implementations:
 
 * `MemoryCache` - store the cache in variables (in-memory)
 * `FileCache` - store the cache in a file on the file-system. The format of the file is up to you (but you can make it JSON)
+
+## Problem 5 - String Joiner
+
+Create a class called `StringJoiner` which behaves like that:
+
+```java
+Integer[] arr = {1, 2, 3};
+
+StringJoiner j = new StringJoiner(", ", arr);
+System.out.println(j.toString()); //"[1, 2, 3]"
+```
