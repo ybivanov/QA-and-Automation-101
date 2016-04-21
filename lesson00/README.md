@@ -16,6 +16,7 @@ The slides can be found here:
 * [Intro to Java - Types, Data Structurs & Basic Object Model](http://slides.com/hackbulgaria/qa-and-automation-intro-to-java/fullscreen)
 * [Intro to Java - Polymorphism - Object Equality & Interfaces](http://slides.com/hackbulgaria/qa-and-automation/fullscreen)
 * [Intro to Java - Inheritance, Abstract Classes & Polymorphism](http://slides.com/hackbulgaria/qa-and-automation-intro-to-java-48/fullscreen)
+* [Intro to Java - Exceptions & JUnit](http://slides.com/hackbulgaria/qa-automation-intro-to-java-part-4/fullscreen)
 
 ## How To Export Jar
 
